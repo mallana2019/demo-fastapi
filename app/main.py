@@ -24,3 +24,11 @@ def home():
 def predict(payload: TextIn):
     language = predict_pipeline(payload.text)
     return {"language": language}
+
+
+
+
+##############################
+
+def commit():
+    print("commited new function")
